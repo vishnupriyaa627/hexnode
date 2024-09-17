@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="5" viewBox="0 0 390 5">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00cd5e"/>
+      <stop offset="0.086" stop-color="#f5f250"/>
+      <stop offset="0.17" stop-color="#ff8f39"/>
+      <stop offset="0.271" stop-color="#f35699"/>
+      <stop offset="0.374" stop-color="#8442ff"/>
+      <stop offset="0.477" stop-color="#5cb6f9"/>
+      <stop offset="0.577" stop-color="#00cd5e"/>
+      <stop offset="0.678" stop-color="#f5f250"/>
+      <stop offset="0.775" stop-color="#ff8f39"/>
+      <stop offset="0.845" stop-color="#f35699"/>
+      <stop offset="0.921" stop-color="#f35699"/>
+      <stop offset="1" stop-color="#f35699"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Colored_Line" data-name="Colored Line" width="390" height="5" transform="translate(0 75)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Colored_Line-2" data-name="Colored Line" transform="translate(0 -75)" clip-path="url(#clip-path)">
+    <rect id="Colored_Line-3" data-name="Colored Line" width="800" height="5" transform="translate(0 75)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
