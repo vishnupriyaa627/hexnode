@@ -4,7 +4,9 @@
             <div class="hidden xl:block transition-[height] duration-[0.2s] ease-in-out nav-top-bar" role="navigation">
                 <ul class="list-none w-full flex flex-row justify-end items-center m-0 pt-[3px]">
                     <li class="group text-[#FFFFFF] text-[14px] font-semibold leading-[11px] even:mx-[12px] last:m-0 hover:text-[rgb(2_,_10_,_25)] last:!mr-[0px] relative   " role="menubar" area-label="What&#x27;s new">
-                        <a class="flex justify-center items-center hover:!text-[#020a19] top-nav--link" href="/whats-new/">What &#x27;s new</a>
+                        <a class="flex justify-center items-center hover:!text-[#020a19] top-nav--link" href="#" (click)="onWhatsNewClick($event)">What &#x27;s new</a>
+                        <!-- <a class="flex justify-center items-center hover:!text-[#020a19] top-nav--link" [routerLink]="['/whats-new/']">What &#x27;s new</a> -->
+                        <!-- <router-outlet></router-outlet> -->
                     </li>
                     <li class="group text-[#bfc0c1] text-[14px] leading-[11px] even:mx-[12px] last:m-0 hover:text-[rgb(2_,_10_,_25)] last:!mr-[0px] relative   " role="menubar" area-label="Demo">
                         <span class="text-[13px] leading-[24px] font-medium flex justify-center items-center transition duration-[0.2s] ease-in-out cursor-pointer hover:!text-[#020a19] mini-dropdown--group" role="menuitem" aria-expanded="false" aria-haspopup="true">
